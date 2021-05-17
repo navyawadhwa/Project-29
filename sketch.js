@@ -58,9 +58,9 @@ function setup() {
     box25=new Block(400,65,40,40);
     box26=new Block(390,45,40,40);
 
-    hit1=new Hitter(60,190,80,80);
+    hit1=new Hitter(100,190,80,80);
     
-    sling1=new SlingShot(hit1.body, {x:40 , y:140});
+    sling1=new SlingShot(hit1.body, {x:100 , y:140});
 
 	  Engine.run(engine);
   
